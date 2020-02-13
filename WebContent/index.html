@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Tp1 JAVA JEE 4eme GI</title>
+</head>
+<body style="background-color:orange">
+<h1 style="color:yellow"> Enregistrement de vos Coordonnees</h1>
+<form action="./AfficherResultat" method="post">
+<div>
+	<label style="color:yellow">Civilité :</label>
+    <select name="Cv">
+  		<option value="Mr">Monsieur</option>
+  		<option value="Mmd">Madame</option>
+ 	</select>
+        <br><label for="Nom" style="color:yellow">Nom :</label>
+        <input type="text"  name="Nom"><br>
+        <label for="Prenom" style="color:yellow">Prenom :</label>
+        <input type="text" name="Prenom">
+</div>
+<div>
+  <button type="submit" value="Submit">Envoyer le formulaire</button>
+  <button type="reset" value="Reset">Tout effacer</button>
+</div>
+</form>
+</body>
+</html>
